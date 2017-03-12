@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">名医汇</string>>
+    <!-- homeActivity页面-->
+    <string name="home_texiu">特需</string>
+    <string name="home_yiliaoquan">医疗圈</string>
+    <string name="home_mingyibang">名医榜</string>
+    <string name="home_setting">设置</string>
+
+    <!-- 特需模块问诊页面-->
+    <string name="texiu_wenzen_list_good">擅长：</string>
+    <!-- 特需模块陪诊页面-->
+    <string name="texiu_peizhen_list_price">￥</string>
+    <string name="texiu_peizhen_list_yuyue_bt">预约陪诊(仅限北京市)</string>
+    <!-- 特需模块出诊页面-->
+    <string name="texiu_chuzhen_list_zhixun">咨询</string>
+    <string name="texiu_chuzhen_list_servicerange">服务范围：</string>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/colorAccent">
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/appicon"
+          android:paddingLeft="5dp"/>
+  </LinearLayout>
+    <!-- 广告图片-->
+    <com.qianfeng.mingyihui.other.ui.SlideShowView
+        android:id="@+id/slideshowView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+       />
+   <RadioGroup
+       android:id="@+id/texiu_content_rg"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <RadioButton
+           android:id="@+id/texiu_wenzhen_rb"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content"
+           android:button="@null"
+           android:drawableTop="@drawable/kuai_special_button_icon_one"
+           android:gravity="center"/>
+       <RadioButton
+           android:id="@+id/texiu_peizhen_rb"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content"
+           android:button="@null"
+           android:drawableTop="@drawable/kuai_special_button_icon_two"
+
+           android:gravity="center"/>
+       <RadioButton
+           android:id="@+id/texiu_chuzhen_rb"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content"
+           android:button="@null"
+           android:drawableTop="@drawable/kuai_special_button_icon_three"
+           android:gravity="center"/>
+       <RadioButton
+           android:id="@+id/texiu_yizhen_rb"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content"
+           android:button="@null"
+           android:drawableTop="@drawable/kuai_special_button_icon_four"
+           android:gravity="center"/>
+   </RadioGroup>
+    <!-- 分割線-->
+    <View style="@style/public_gray_horizontal_line"/>
+    <LinearLayout
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/texiu_head_ib"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:src="@drawable/mingyi_triage_mininurse_head_main_icon"/>
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="欢迎咨询"/>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/texiu_content_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.qianfeng.mingyihui.mingyibang.ui.MingYiBangActivity">
+    <LinearLayout
+        android:id="@+id/mingyibang_layout_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:weightSum="3">
+        <TextView
+        android:id="@+id/tv001"
+        style="@style/nav_btn_style"
+        android:text="myTab1"
+        />
+        <TextView
+            android:id="@+id/tv002"
+            style="@style/nav_btn_style"
+            android:text="myTab2"
+            />
+        <TextView
+            android:id="@+id/tv003"
+            style="@style/nav_btn_style"
+            android:text="myTab3"
+            />
+    </LinearLayout>
+</LinearLayout>
